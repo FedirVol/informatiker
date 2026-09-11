@@ -282,3 +282,34 @@ h1, h2, h3 {
     margin-left: 60px;
     margin-right: 60px;
 }
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    
+}
+.form-field {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #404041;
+    color: #404041;
+}
+.form-button {
+    width: 100%;
+    text-align: center;
+}
+
+.form-container h2,
+.form2-container h2,
+.form3-container h2 {
+    margin-top: 10px;
+}
